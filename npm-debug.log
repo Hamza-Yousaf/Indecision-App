@@ -1,0 +1,46 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node', '/usr/bin/npm', 'install' ]
+2 info using npm@3.5.2
+3 info using node@v8.10.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData fsevents
+20 silly mapToRegistry name fsevents
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry uri https://registry.npmjs.org/fsevents
+24 verbose request uri https://registry.npmjs.org/fsevents
+25 verbose request no auth needed
+26 info attempt registry request try #1 at 9:49:32 PM
+27 verbose request id 5b2d5c3159d1756c
+28 verbose etag W/"cd6b0902877e98caf126c8071e155077"
+29 verbose lastModified Sat, 29 Dec 2018 10:57:07 GMT
+30 http request GET https://registry.npmjs.org/fsevents
+31 verbose stack Error: write EIO
+31 verbose stack     at _errnoException (util.js:1022:11)
+31 verbose stack     at WriteWrap.afterWrite [as oncomplete] (net.js:880:14)
+32 verbose cwd /media/mrhamza/Study/A/Saylani/Working/React.js/My App/Indecision App
+33 error Linux 4.15.0-43-generic
+34 error argv "/usr/bin/node" "/usr/bin/npm" "install"
+35 error node v8.10.0
+36 error npm  v3.5.2
+37 error code EIO
+38 error errno EIO
+39 error syscall write
+40 error write EIO
+41 error If you need help, you may report this error at:
+41 error     <https://github.com/npm/npm/issues>
+42 verbose exit [ 1, true ]
